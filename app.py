@@ -23,3 +23,6 @@ if st.button("Predict Flower"):
     prediction = model.predict(inputs)[0]
     st.success(f"Predicted Flower: {target_names[prediction]}")
 
+
+
+
